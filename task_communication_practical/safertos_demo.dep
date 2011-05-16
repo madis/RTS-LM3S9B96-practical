@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>483005208</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\ewarm\Obj\lwip_task.o</file>
+      <file>$PROJ_DIR$\htmldata.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\cgifuncs.o</file>
+      <file>$PROJ_DIR$\..\drivers\kitronix320x240x16_ssd2119_8bit.c</file>
+      <file>$PROJ_DIR$\lwip_task.c</file>
+      <file>$PROJ_DIR$\..\..\..\utils\locator.c</file>
+      <file>$PROJ_DIR$\ewarm\Obj\httpd.o</file>
+      <file>$PROJ_DIR$\spider_task.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\cgifuncs.h</file>
+      <file>$PROJ_DIR$\startup_ewarm.c</file>
+      <file>$PROJ_DIR$\ewarm\Obj\display_task.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\ewarm\Obj\locator.o</file>
+      <file>$PROJ_DIR$\fs.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\priorities.h</file>
+      <file>$PROJ_DIR$\cgifuncs.c</file>
+      <file>$PROJ_DIR$\ewarm\Obj\httpd.pbi</file>
+      <file>$PROJ_DIR$\safertos_demo.icf</file>
+      <file>$PROJ_DIR$\ewarm\Obj\touch.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\ewarm\Exe\safertos_demo.bin</file>
+      <file>$PROJ_DIR$\ewarm\Obj\safertos_demo.pbi</file>
+      <file>$PROJ_DIR$\ewarm\Obj\led_task.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\locator.pbi</file>
+      <file>$PROJ_DIR$\ewarm\Obj\images.pbi</file>
+      <file>$PROJ_DIR$\random.h</file>
+      <file>$PROJ_DIR$\images.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\set_pinout.o</file>
+      <file>$PROJ_DIR$\ewarm\Obj\startup_ewarm.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\utils\lwiplib.c</file>
+      <file>$PROJ_DIR$\ewarm\Obj\lwip_task.pbi</file>
+      <file>$PROJ_DIR$\..\drivers\set_pinout.c</file>
+      <file>$PROJ_DIR$\idle_task.h</file>
+      <file>$PROJ_DIR$\idle_task.c</file>
+      <file>$PROJ_DIR$\ewarm\Obj\ustdlib.pbi</file>
+      <file>$PROJ_DIR$\spider_task.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\safertos_demo.o</file>
+      <file>$PROJ_DIR$\images.c</file>
+      <file>$PROJ_DIR$\ewarm\Obj\kitronix320x240x16_ssd2119_8bit.o</file>
+      <file>$PROJ_DIR$\ewarm\Obj\startup_ewarm.o</file>
+      <file>$PROJ_DIR$\..\..\..\utils\ustdlib.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\lwiplib.o</file>
+      <file>$PROJ_DIR$\led_task.c</file>
+      <file>$PROJ_DIR$\ewarm\Obj\touch.o</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\ewarm\Exe\driverlib.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\fs.o</file>
+      <file>$PROJ_DIR$\lwip_task.h</file>
+      <file>$PROJ_DIR$\safertos_demo.c</file>
+      <file>$PROJ_DIR$\..\..\..\grlib\ewarm\Exe\grlib.a</file>
+      <file>$PROJ_DIR$\ewarm\Obj\ustdlib.o</file>
+      <file>$PROJ_DIR$\..\drivers\touch.c</file>
+      <file>$PROJ_DIR$\ewarm\Obj\fs.pbi</file>
+      <file>$PROJ_DIR$\ewarm\Obj\display_task.o</file>
+      <file>$PROJ_DIR$\ewarm\Obj\cgifuncs.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\idle_task.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\ewarm\Exe\safertos_demo.out</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$PROJ_DIR$\ewarm\Obj\safertos_demo.pbd</file>
+      <file>$PROJ_DIR$\ewarm\Obj\random.o</file>
+      <file>$PROJ_DIR$\display_task.c</file>
+      <file>$PROJ_DIR$\ewarm\Obj\images.o</file>
+      <file>$PROJ_DIR$\ewarm\Obj\set_pinout.pbi</file>
+      <file>$PROJ_DIR$\ewarm\List\safertos_demo.map</file>
+      <file>$PROJ_DIR$\random.c</file>
+      <file>$PROJ_DIR$\ewarm\Obj\kitronix320x240x16_ssd2119_8bit.pbi</file>
+      <file>$PROJ_DIR$\led_task.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\spider_task.pbi</file>
+      <file>$PROJ_DIR$\ewarm\Obj\idle_task.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\spider_task.o</file>
+      <file>$PROJ_DIR$\ewarm\Obj\random.pbi</file>
+      <file>$PROJ_DIR$\ewarm\Obj\led_task.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\ewarm\Obj\lwiplib.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\third_party\lwip-1.3.1\apps\httpserver_raw\httpd.c</file>
+      <file>$PROJ_DIR$\display_task.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\drivers\kitronix320x240x16_ssd2119_8bit.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lwip_task.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 74 37 53 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\utils\locator.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\spider_task.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84 37 31 16 30 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\startup_ewarm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\fs.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63 8 77 51 25 26 61 15 27 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63 8 77 51 26 61 15 27 46 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cgifuncs.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63 8 77 51 25 26 61 15 27 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63 8 77 51 26 61 15 27 46 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 71 64</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\utils\lwiplib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drivers\set_pinout.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\idle_task.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\images.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\utils\ustdlib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\led_task.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37 74 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\safertos_demo.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84 37 74 53 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drivers\touch.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\ewarm\Exe\safertos_demo.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 19 2 59 52 6 62 69 43 24 13 0 47 67 41 32 78 44 49 56 50 55 12 21 81 65</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\ewarm\Obj\safertos_demo.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 60 11 58 18 76 29 73 80 28 35 82 79 23 70 75 33 20 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\display_task.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84 37 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\random.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\third_party\lwip-1.3.1\apps\httpserver_raw\httpd.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+</project>
+
+
