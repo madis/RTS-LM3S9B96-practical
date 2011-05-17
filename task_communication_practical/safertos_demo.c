@@ -32,7 +32,6 @@
 #include "display_task.h"
 #include "idle_task.h"
 #include "led_task.h"
-#include "lwip_task.h"
 #include "spider_task.h"
 
 //*****************************************************************************

@@ -23,8 +23,6 @@
 //*****************************************************************************
 
 #include "SafeRTOS/SafeRTOS_API.h"
-#include "utils/lwiplib.h"
-#include "lwip/stats.h"
 #include "display_task.h"
 #include "idle_task.h"
 
@@ -123,95 +121,6 @@ SafeRTOSTaskDeleteHook(xTaskHandle xTaskToDelete)
     g_ulTasks--;
 }
 
-//*****************************************************************************
-//
-// Displays the IP address in a human-readable format.
-//
-//*****************************************************************************
-static void
-DisplayIP(unsigned long ulIP)
-{
-/*
-  unsigned long ulLoop, ulIdx, ulValue;
-
-    //
-    // If there is no IP address, indicate that one is being acquired.
-    //
-    if(ulIP == 0)
-    {
-        DisplayString(115, 240 - 10, "  Acquiring...  ");
-        return;
-    }
-
-    //
-    // Set the initial index into the string that is being constructed.
-    //
-    ulIdx = 0;
-
-    //
-    // Start the string with four spaces.  Not all will necessarily be used,
-    // depending upon the length of the IP address string.
-    //
-    for(ulLoop = 0; ulLoop < 4; ulLoop++)
-    {
-        g_pcIPString[ulIdx++] = ' ';
-    }
-
-    //
-    // Loop through the four bytes of the IP address.
-    //
-    for(ulLoop = 0; ulLoop < 32; ulLoop += 8)
-    {
-        //
-        // Extract this byte from the IP address word.
-        //
-        ulValue = (ulIP >> ulLoop) & 0xff;
-
-        //
-        // Convert this byte into ASCII, using only the characters required.
-        //
-        if(ulValue > 99)
-        {
-            g_pcIPString[ulIdx++] = '0' + (ulValue / 100);
-        }
-        if(ulValue > 9)
-        {
-            g_pcIPString[ulIdx++] = '0' + ((ulValue / 10) % 10);
-        }
-        g_pcIPString[ulIdx++] = '0' + (ulValue % 10);
-
-        //
-        // Add a dot to separate this byte from the next.
-        //
-        g_pcIPString[ulIdx++] = '.';
-    }
-
-    //
-    // Fill the remainder of the string buffer with spaces.
-    //
-    for(ulLoop = ulIdx - 1; ulLoop < 20; ulLoop++)
-    {
-        g_pcIPString[ulLoop] = ' ';
-    }
-
-    //
-    // Null terminate the string at the appropriate place, based on the length
-    // of the string version of the IP address.  There may or may not be
-    // trailing spaces that remain.
-    //
-    g_pcIPString[ulIdx + 3 - ((ulIdx - 12) / 2)] = '\0';
-
-    //
-    // Display the string.  The horizontal position and the number of leading
-    // spaces utilized depend on the length of the string version of the IP
-    // address.  The end result is the IP address centered in the provided
-    // space with leading/trailing spaces as required to clear the remainder of
-    // the space.
-    //
-    DisplayString(118 - ((ulIdx & 1) * 3), 240 - 10,
-                  g_pcIPString + ((ulIdx - 12) / 2));
-  */
-}
 
 //*****************************************************************************
 //
@@ -423,27 +332,6 @@ SafeRTOSIdleHook(void)
             g_pcTaskString[2] = '\0';
             DisplayString(81, 240 - 10, g_pcTaskString);
         }
-    }
-
-    //
-    // Get the current IP address.
-    //
-    //ulTemp = lwIPLocalIPAddrGet();
-
-    //
-    // See if the IP address has changed.
-    //
-    if(ulTemp != g_ulIPAddress)
-    {
-        //
-        // Save the current IP address.
-        //
-        g_ulIPAddress = ulTemp;
-
-        //
-        // Update the display of the IP address.
-        //
-        DisplayIP(ulTemp);
     }
 
 }

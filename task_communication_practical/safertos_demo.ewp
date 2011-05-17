@@ -911,6 +911,27 @@
   </group>
   <group>
     <name>Source</name>
+    <group>
+      <name>External</name>
+      <file>
+        <name>C:\StellarisWare\boards\dk-lm3s9b96\drivers\kitronix320x240x16_ssd2119_8bit.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\random.c</name>
+      </file>
+      <file>
+        <name>C:\StellarisWare\boards\dk-lm3s9b96\drivers\set_pinout.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\startup_ewarm.c</name>
+      </file>
+      <file>
+        <name>C:\StellarisWare\boards\dk-lm3s9b96\drivers\touch.c</name>
+      </file>
+      <file>
+        <name>C:\StellarisWare\utils\ustdlib.c</name>
+      </file>
+    </group>
     <file>
       <name>$PROJ_DIR$\display_task.c</name>
     </file>
@@ -921,31 +942,13 @@
       <name>$PROJ_DIR$\images.c</name>
     </file>
     <file>
-      <name>C:\StellarisWare\boards\dk-lm3s9b96\drivers\kitronix320x240x16_ssd2119_8bit.c</name>
-    </file>
-    <file>
       <name>$PROJ_DIR$\led_task.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\random.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\safertos_demo.c</name>
     </file>
     <file>
-      <name>C:\StellarisWare\boards\dk-lm3s9b96\drivers\set_pinout.c</name>
-    </file>
-    <file>
       <name>$PROJ_DIR$\spider_task.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\startup_ewarm.c</name>
-    </file>
-    <file>
-      <name>C:\StellarisWare\boards\dk-lm3s9b96\drivers\touch.c</name>
-    </file>
-    <file>
-      <name>C:\StellarisWare\utils\ustdlib.c</name>
     </file>
   </group>
 </project>

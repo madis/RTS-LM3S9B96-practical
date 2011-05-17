@@ -2,16 +2,14 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>1473890498</fileChecksum>
+  <fileChecksum>3486944485</fileChecksum>
   <configuration>
     <name>Debug</name>
     <outputs>
       <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\ports\stellaris\include\arch\sys_arch.h</file>
       <file>C:\StellarisWare\inc\hw_adc.h</file>
       <file>$PROJ_DIR$\ewarm\Obj\spider_task.o</file>
       <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\src\include\ipv4\lwip\ip.h</file>
       <file>C:\StellarisWare\driverlib\timer.h</file>
       <file>$PROJ_DIR$\ewarm\Obj\safertos_demo.o</file>
       <file>$PROJ_DIR$\spider_task.h</file>
@@ -19,9 +17,6 @@
       <file>C:\StellarisWare\inc\hw_gpio.h</file>
       <file>C:\StellarisWare\boards\dk-lm3s9b96\drivers\touch.h</file>
       <file>$PROJ_DIR$\led_task.c</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\src\include\lwip\sys.h</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\src\include\ipv4\lwip\ip_addr.h</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\src\include\lwip\api.h</file>
       <file>$PROJ_DIR$\display_task.h</file>
       <file>$PROJ_DIR$\safertos_demo.c</file>
       <file>C:\StellarisWare\driverlib\epi.h</file>
@@ -29,30 +24,25 @@
       <file>C:\StellarisWare\third_party\SafeRTOS\ROMImage_Typedefs.h</file>
       <file>C:\StellarisWare\boards\dk-lm3s9b96\drivers\camerafpga.h</file>
       <file>C:\StellarisWare\utils\ustdlib.h</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\ports\stellaris\include\arch\cc.h</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\src\include\ipv4\lwip\icmp.h</file>
       <file>$PROJ_DIR$\ewarm\Obj\safertos_demo.pbd</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
       <file>C:\StellarisWare\third_party\SafeRTOS\portmacro.h</file>
       <file>$PROJ_DIR$\ewarm\Obj\display_task.pbi</file>
       <file>$PROJ_DIR$\startup_ewarm.c</file>
       <file>$PROJ_DIR$\spider_task.c</file>
       <file>$PROJ_DIR$\ewarm\Obj\idle_task.o</file>
       <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\ports\stellaris\include\arch\bpstruct.h</file>
       <file>$PROJ_DIR$\ewarm\Exe\safertos_demo.out</file>
       <file>$TOOLKIT_DIR$\inc\c\string.h</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\src\include\lwip\sockets.h</file>
       <file>$PROJ_DIR$\ewarm\Obj\startup_ewarm.o</file>
       <file>$PROJ_DIR$\ewarm\Obj\kitronix320x240x16_ssd2119_8bit.o</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\src\include\lwip\memp_std.h</file>
       <file>C:\StellarisWare\driverlib\ewarm\Exe\driverlib.a</file>
       <file>C:\StellarisWare\driverlib\gpio.h</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\src\include\lwip\tcp.h</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\src\include\lwip\stats.h</file>
       <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\src\include\lwip\arch.h</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
       <file>$PROJ_DIR$\priorities.h</file>
       <file>$PROJ_DIR$\ewarm\Obj\touch.pbi</file>
+      <file>$PROJ_DIR$\safertos_demo.icf</file>
       <file>$PROJ_DIR$\display_task.c</file>
       <file>$PROJ_DIR$\ewarm\Obj\led_task.o</file>
       <file>$PROJ_DIR$\ewarm\Obj\safertos_demo.pbi</file>
@@ -60,41 +50,31 @@
       <file>$PROJ_DIR$\idle_task.h</file>
       <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
       <file>C:\StellarisWare\third_party\SafeRTOS\queue.h</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\src\include\lwip\memp.h</file>
       <file>C:\StellarisWare\boards\dk-lm3s9b96\drivers\kitronix320x240x16_ssd2119_8bit.h</file>
       <file>$PROJ_DIR$\ewarm\Obj\idle_task.pbi</file>
       <file>$PROJ_DIR$\ewarm\Obj\spider_task.pbi</file>
       <file>$PROJ_DIR$\ewarm\Obj\display_task.o</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\ports\stellaris\include\arch\epstruct.h</file>
       <file>C:\StellarisWare\grlib\grlib.h</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\src\include\lwip\def.h</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\src\include\ipv4\lwip\inet.h</file>
+      <file>$PROJ_DIR$\fs.c</file>
       <file>C:\StellarisWare\third_party\SafeRTOS\SafeRTOSConfig.h</file>
       <file>C:\StellarisWare\third_party\SafeRTOS\portable.h</file>
       <file>C:\StellarisWare\grlib\ewarm\Exe\grlib.a</file>
       <file>C:\StellarisWare\driverlib\debug.h</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\src\include\lwip\netbuf.h</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\src\include\lwip\udp.h</file>
       <file>C:\StellarisWare\third_party\SafeRTOS\list.h</file>
       <file>$PROJ_DIR$\random.c</file>
       <file>C:\StellarisWare\boards\dk-lm3s9b96\drivers\touch.c</file>
       <file>$PROJ_DIR$\ewarm\Obj\startup_ewarm.pbi</file>
       <file>C:\StellarisWare\driverlib\rom.h</file>
       <file>$PROJ_DIR$\ewarm\Exe\safertos_demo.bin</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\src\include\ipv4\lwip\igmp.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
       <file>$PROJ_DIR$\random.h</file>
       <file>$PROJ_DIR$\ewarm\Obj\images.pbi</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\src\include\lwip\mem.h</file>
       <file>C:\StellarisWare\grlib\widget.h</file>
-      <file>C:\StellarisWare\utils\lwiplib.h</file>
       <file>C:\StellarisWare\inc\hw_timer.h</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\src\include\lwip\netifapi.h</file>
       <file>C:\StellarisWare\inc\hw_ints.h</file>
       <file>C:\StellarisWare\third_party\SafeRTOS\SafeRTOS_API.h</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\src\include\lwip\tcpip.h</file>
       <file>C:\StellarisWare\utils\ustdlib.c</file>
       <file>$PROJ_DIR$\ewarm\Obj\ustdlib.o</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\src\include\lwip\netif.h</file>
       <file>C:\StellarisWare\driverlib\i2c.h</file>
       <file>$PROJ_DIR$\ewarm\Obj\led_task.pbi</file>
       <file>$PROJ_DIR$\ewarm\Obj\random.pbi</file>
@@ -102,9 +82,9 @@
       <file>$PROJ_DIR$\ewarm\Obj\random.o</file>
       <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
       <file>$PROJ_DIR$\ewarm\Obj\touch.o</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
       <file>C:\StellarisWare\inc\hw_memmap.h</file>
       <file>C:\StellarisWare\inc\hw_types.h</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\src\include\lwip\pbuf.h</file>
       <file>C:\StellarisWare\third_party\SafeRTOS\SafeRTOS.h</file>
       <file>$PROJ_DIR$\images.c</file>
       <file>$PROJ_DIR$\idle_task.c</file>
@@ -114,19 +94,16 @@
       <file>$PROJ_DIR$\ewarm\Obj\kitronix320x240x16_ssd2119_8bit.pbi</file>
       <file>$PROJ_DIR$\led_task.h</file>
       <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\src\include\lwip\opt.h</file>
       <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
       <file>C:\StellarisWare\boards\dk-lm3s9b96\drivers\set_pinout.c</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\src\include\lwip\api_msg.h</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\src\include\lwip\err.h</file>
       <file>$PROJ_DIR$\ewarm\Obj\set_pinout.o</file>
       <file>$PROJ_DIR$\images.h</file>
       <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
       <file>C:\StellarisWare\boards\dk-lm3s9b96\drivers\kitronix320x240x16_ssd2119_8bit.c</file>
-      <file>$PROJ_DIR$\lwip_task.h</file>
       <file>C:\StellarisWare\boards\dk-lm3s9b96\drivers\set_pinout.h</file>
+      <file>$PROJ_DIR$\ewarm\List\safertos_demo.map</file>
       <file>$PROJ_DIR$\ewarm\Obj\set_pinout.pbi</file>
-      <file>C:\StellarisWare\third_party\lwip-1.3.1\src\include\lwip\debug.h</file>
       <file>C:\StellarisWare\third_party\SafeRTOS\task.h</file>
     </outputs>
     <file>
@@ -134,17 +111,21 @@
       <outputs>
         <tool>
           <name>ICCARM</name>
-          <file> 48</file>
+          <file> 38</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 90</file>
+          <file> 70</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
+          <name>ICCARM</name>
+          <file> 77 78 31 58 66 15 79 87 83 3 74 93 92 25 0 88 14 50 51 20 43 98 54 41 86 34</file>
+        </tool>
+        <tool>
           <name>BICOMP</name>
-          <file> 96 97 40 73 84 20 99 107 103 4 94 115 31 0 109 19 63 64 26 53 121 69 51 106 45</file>
+          <file> 77 78 31 58 66 15 79 87 83 3 74 92 25 0 88 14 50 51 20 43 98 54 41 86 34</file>
         </tool>
       </inputs>
     </file>
@@ -153,17 +134,21 @@
       <outputs>
         <tool>
           <name>ICCARM</name>
-          <file> 7</file>
+          <file> 5</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 49</file>
+          <file> 39</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
+          <name>ICCARM</name>
+          <file> 78 58 82 48 66 15 79 87 83 3 74 93 92 25 0 88 14 50 51 20 43 98 54 44 95 11 41 86 6</file>
+        </tool>
+        <tool>
           <name>BICOMP</name>
-          <file> 97 73 102 60 84 20 99 107 103 4 94 115 31 0 109 19 63 64 26 53 121 69 55 118 16 51 106 117 8</file>
+          <file> 78 58 82 48 66 15 79 87 83 3 74 92 25 0 88 14 50 51 20 43 98 54 44 95 11 41 86 6</file>
         </tool>
       </inputs>
     </file>
@@ -172,7 +157,7 @@
       <inputs>
         <tool>
           <name>BILINK</name>
-          <file> 27 56 77 105 90 91 49 119 57 72 46 50</file>
+          <file> 21 45 62 85 70 71 39 97 46 57 35 40</file>
         </tool>
       </inputs>
     </file>
@@ -181,26 +166,7 @@
       <outputs>
         <tool>
           <name>ICCARM</name>
-          <file> 36</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 72</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 84 20 99 107 103 4 94 115 31 0 109 19 63 64 26 53 121 69</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\spider_task.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 3</file>
+          <file> 28</file>
         </tool>
         <tool>
           <name>BICOMP</name>
@@ -209,64 +175,21 @@
       </outputs>
       <inputs>
         <tool>
+          <name>ICCARM</name>
+          <file> 66 15 79 87 83 3 74 93 92 25 0 88 14 50 51 20 43 98 54</file>
+        </tool>
+        <tool>
           <name>BICOMP</name>
-          <file> 83 97 104 60 79 84 20 99 107 103 4 94 115 31 0 109 19 63 64 26 53 121 69 11 16 51 114 45 76 8</file>
+          <file> 66 15 79 87 83 3 74 92 25 0 88 14 50 51 20 43 98 54</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\ewarm\Exe\safertos_demo.out</name>
-      <outputs>
-        <tool>
-          <name>OBJCOPY</name>
-          <file> 74</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\display_task.c</name>
+      <name>$PROJ_DIR$\spider_task.c</name>
       <outputs>
         <tool>
           <name>ICCARM</name>
-          <file> 58</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 27</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 60 84 20 99 107 103 4 94 115 31 0 109 19 63 64 26 53 121 69 55 16 51 45</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\random.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 93</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 91</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 76</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>C:\StellarisWare\boards\dk-lm3s9b96\drivers\touch.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 95</file>
+          <file> 2</file>
         </tool>
         <tool>
           <name>BICOMP</name>
@@ -275,8 +198,100 @@
       </outputs>
       <inputs>
         <tool>
+          <name>ICCARM</name>
+          <file> 65 78 84 48 63 66 15 79 87 83 3 74 93 92 25 0 88 14 50 51 20 43 98 54 9 11 41 91 34 61 6</file>
+        </tool>
+        <tool>
           <name>BICOMP</name>
-          <file> 2 10 83 96 81 97 9 40 104 102 6 60 79 11 118 55</file>
+          <file> 65 78 84 48 63 66 15 79 87 83 3 74 92 25 0 88 14 50 51 20 43 98 54 9 11 41 91 34 61 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\ewarm\Exe\safertos_demo.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 59</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 36 30 52 47 24 72 29 38 73 5 90 2 28 75 68 76 60 33 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\display_task.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48 66 15 79 87 83 3 74 93 92 25 0 88 14 50 51 20 43 98 54 44 11 41 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 66 15 79 87 83 3 74 92 25 0 88 14 50 51 20 43 98 54 44 11 41 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\random.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>C:\StellarisWare\boards\dk-lm3s9b96\drivers\touch.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 1 8 65 77 64 78 7 31 84 82 4 48 63 9 95 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 8 65 77 64 78 7 31 84 82 4 48 63 9 95 44</file>
         </tool>
       </inputs>
     </file>
@@ -285,17 +300,21 @@
       <outputs>
         <tool>
           <name>ICCARM</name>
-          <file> 87</file>
+          <file> 68</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 50</file>
+          <file> 40</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
+          <name>ICCARM</name>
+          <file> 27 83 3 74 93 92 25 0 88 42 53 17 32</file>
+        </tool>
+        <tool>
           <name>BICOMP</name>
-          <file> 34 103 4 94 115 31 0 109 52 66 22 43</file>
+          <file> 27 83 3 74 92 25 0 88 42 53 17 32</file>
         </tool>
       </inputs>
     </file>
@@ -304,17 +323,21 @@
       <outputs>
         <tool>
           <name>ICCARM</name>
-          <file> 92</file>
+          <file> 72</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 77</file>
+          <file> 62</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
+          <name>ICCARM</name>
+          <file> 48 91</file>
+        </tool>
+        <tool>
           <name>BICOMP</name>
-          <file> 60 114</file>
+          <file> 48 91</file>
         </tool>
       </inputs>
     </file>
@@ -323,17 +346,21 @@
       <outputs>
         <tool>
           <name>ICCARM</name>
-          <file> 30</file>
+          <file> 24</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 56</file>
+          <file> 45</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
+          <name>ICCARM</name>
+          <file> 66 15 79 87 83 3 74 93 92 25 0 88 14 50 51 20 43 98 54 11 41</file>
+        </tool>
+        <tool>
           <name>BICOMP</name>
-          <file> 84 20 99 107 103 4 94 115 31 0 109 19 63 64 26 53 121 69 80 108 120 44 23 15 67 98 112 13 1 14 62 32 59 82 41 78 5 61 88 24 68 85 111 75 35 42 54 38 16 51</file>
+          <file> 66 15 79 87 83 3 74 92 25 0 88 14 50 51 20 43 98 54 11 41</file>
         </tool>
       </inputs>
     </file>
@@ -342,17 +369,21 @@
       <outputs>
         <tool>
           <name>ICCARM</name>
-          <file> 113</file>
+          <file> 90</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 119</file>
+          <file> 97</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
+          <name>ICCARM</name>
+          <file> 77 78 8 82 69 31 13 53 95 16</file>
+        </tool>
+        <tool>
           <name>BICOMP</name>
-          <file> 96 97 10 102 89 40 18 66 118 21</file>
+          <file> 77 78 8 82 69 31 13 53 95 16</file>
         </tool>
       </inputs>
     </file>
@@ -361,7 +392,7 @@
       <outputs>
         <tool>
           <name>ILINK</name>
-          <file> 33</file>
+          <file> 26 96</file>
         </tool>
       </outputs>
     </file>
@@ -370,17 +401,21 @@
       <outputs>
         <tool>
           <name>ICCARM</name>
-          <file> 37</file>
+          <file> 29</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 105</file>
+          <file> 85</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
+          <name>ICCARM</name>
+          <file> 8 65 77 78 31 13 84 82 4 48 44 95 16</file>
+        </tool>
+        <tool>
           <name>BICOMP</name>
-          <file> 10 83 96 97 40 18 104 102 6 60 55 118 21</file>
+          <file> 8 65 77 78 31 13 84 82 4 48 44 95 16</file>
         </tool>
       </inputs>
     </file>
