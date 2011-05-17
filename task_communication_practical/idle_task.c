@@ -131,7 +131,8 @@ SafeRTOSTaskDeleteHook(xTaskHandle xTaskToDelete)
 static void
 DisplayIP(unsigned long ulIP)
 {
-    unsigned long ulLoop, ulIdx, ulValue;
+/*
+  unsigned long ulLoop, ulIdx, ulValue;
 
     //
     // If there is no IP address, indicate that one is being acquired.
@@ -209,6 +210,7 @@ DisplayIP(unsigned long ulIP)
     //
     DisplayString(118 - ((ulIdx & 1) * 3), 240 - 10,
                   g_pcIPString + ((ulIdx - 12) / 2));
+  */
 }
 
 //*****************************************************************************
@@ -426,7 +428,7 @@ SafeRTOSIdleHook(void)
     //
     // Get the current IP address.
     //
-    ulTemp = lwIPLocalIPAddrGet();
+    //ulTemp = lwIPLocalIPAddrGet();
 
     //
     // See if the IP address has changed.
@@ -444,35 +446,4 @@ SafeRTOSIdleHook(void)
         DisplayIP(ulTemp);
     }
 
-    //
-    // See if the number of transmitted packets has changed.
-    //
-    if(lwip_stats.link.xmit != g_ulTXPackets)
-    {
-        //
-        // Save the number of transmitted packets.
-        //
-        ulTemp = g_ulTXPackets = lwip_stats.link.xmit;
-
-        //
-        // Update the display of transmitted packets.
-        //
-        DisplayValue(g_pcTxString, ulTemp, 223, 240 - 10);
-    }
-
-    //
-    // See if the number of received packets has changed.
-    //
-    if(lwip_stats.link.recv != g_ulRXPackets)
-    {
-        //
-        // Save the number of received packets.
-        //
-        ulTemp = g_ulRXPackets = lwip_stats.link.recv;
-
-        //
-        // Update the display of received packets.
-        //
-        DisplayValue(g_pcRxString, ulTemp, 275, 240 - 10);
-    }
 }

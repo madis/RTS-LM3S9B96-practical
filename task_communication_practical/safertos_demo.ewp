@@ -87,7 +87,7 @@
         </option>
         <option>
           <name>OGLastSavedByProductVersion</name>
-          <state>5.11.0.50579</state>
+          <state>6.10.5.52324</state>
         </option>
         <option>
           <name>GeneralEnableMisra</name>
@@ -295,14 +295,14 @@
         </option>
         <option>
           <name>CCIncludePath2</name>
-          <state>$PROJ_DIR$\.</state>
-          <state>$PROJ_DIR$\..</state>
-          <state>$PROJ_DIR$\..\..\..</state>
-          <state>$PROJ_DIR$\..\..\..\third_party\lwip-1.3.1\apps</state>
-          <state>$PROJ_DIR$\..\..\..\third_party\lwip-1.3.1\ports\stellaris\include</state>
-          <state>$PROJ_DIR$\..\..\..\third_party\lwip-1.3.1\src\include</state>
-          <state>$PROJ_DIR$\..\..\..\third_party\lwip-1.3.1\src\include\ipv4</state>
-          <state>$PROJ_DIR$\..\..\..\third_party</state>
+          <state>C:\StellarisWare</state>
+          <state>C:\StellarisWare\boards</state>
+          <state>C:\StellarisWare\boards\dk-lm3s9b96</state>
+          <state>C:\StellarisWare\third_party\lwip-1.3.1\apps</state>
+          <state>C:\StellarisWare\third_party\lwip-1.3.1\ports\stellaris\include</state>
+          <state>C:\StellarisWare\third_party\lwip-1.3.1\src\include</state>
+          <state>C:\StellarisWare\third_party\lwip-1.3.1\src\include\ipv4</state>
+          <state>C:\StellarisWare\third_party</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>
@@ -903,25 +903,16 @@
   <group>
     <name>Libraries</name>
     <file>
-      <name>$PROJ_DIR$\..\..\..\driverlib\ewarm\Exe\driverlib.a</name>
+      <name>C:\StellarisWare\driverlib\ewarm\Exe\driverlib.a</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\grlib\ewarm\Exe\grlib.a</name>
+      <name>C:\StellarisWare\grlib\ewarm\Exe\grlib.a</name>
     </file>
   </group>
   <group>
     <name>Source</name>
     <file>
-      <name>$PROJ_DIR$\cgifuncs.c</name>
-    </file>
-    <file>
       <name>$PROJ_DIR$\display_task.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\fs.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\third_party\lwip-1.3.1\apps\httpserver_raw\httpd.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\idle_task.c</name>
@@ -930,19 +921,10 @@
       <name>$PROJ_DIR$\images.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\drivers\kitronix320x240x16_ssd2119_8bit.c</name>
+      <name>C:\StellarisWare\boards\dk-lm3s9b96\drivers\kitronix320x240x16_ssd2119_8bit.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\led_task.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\utils\locator.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\lwip_task.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\utils\lwiplib.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\random.c</name>
@@ -951,7 +933,7 @@
       <name>$PROJ_DIR$\safertos_demo.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\drivers\set_pinout.c</name>
+      <name>C:\StellarisWare\boards\dk-lm3s9b96\drivers\set_pinout.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\spider_task.c</name>
@@ -960,10 +942,10 @@
       <name>$PROJ_DIR$\startup_ewarm.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\drivers\touch.c</name>
+      <name>C:\StellarisWare\boards\dk-lm3s9b96\drivers\touch.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\utils\ustdlib.c</name>
+      <name>C:\StellarisWare\utils\ustdlib.c</name>
     </file>
   </group>
 </project>

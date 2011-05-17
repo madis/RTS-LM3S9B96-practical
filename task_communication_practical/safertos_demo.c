@@ -296,21 +296,6 @@ main(void)
     }
 
     //
-    // Create the lwIP tasks.
-    //
-    if(lwIPTaskInit() != 0)
-    {
-        GrContextForegroundSet(&sContext, ClrRed);
-        GrStringDrawCentered(&sContext, "Failed to create lwIP tasks!", -1,
-                             GrContextDpyWidthGet(&sContext) / 2,
-                             (((GrContextDpyHeightGet(&sContext) - 24) / 2) +
-                              24), 0);
-        while(1)
-        {
-        }
-    }
-
-    //
     // Start the scheduler.  This should not return.
     //
     xTaskStartScheduler(pdTRUE);

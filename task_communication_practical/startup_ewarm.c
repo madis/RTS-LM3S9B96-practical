@@ -47,7 +47,7 @@ static void IntDefaultHandler(void);
 //
 //*****************************************************************************
 extern void TouchScreenIntHandler(void);
-extern void lwIPEthernetIntHandler(void);
+//extern void lwIPEthernetIntHandler(void);
 
 //*****************************************************************************
 //
@@ -144,7 +144,7 @@ __root const uVectorEntry __vector_table[] @ ".intvec" =
     IntDefaultHandler,                      // CAN0
     IntDefaultHandler,                      // CAN1
     IntDefaultHandler,                      // CAN2
-    lwIPEthernetIntHandler,                 // Ethernet
+//    lwIPEthernetIntHandler,                 // Ethernet
     IntDefaultHandler,                      // Hibernate
     IntDefaultHandler,                      // USB0
     IntDefaultHandler,                      // PWM Generator 3
