@@ -914,6 +914,9 @@
     <group>
       <name>External</name>
       <file>
+        <name>$PROJ_DIR$\example_task.c</name>
+      </file>
+      <file>
         <name>C:\StellarisWare\boards\dk-lm3s9b96\drivers\kitronix320x240x16_ssd2119_8bit.c</name>
       </file>
       <file>

@@ -59,40 +59,12 @@ static unsigned long g_ulSeconds = 0xffffffff;
 
 //*****************************************************************************
 //
-// The current IP address.  This is initialized to -1 in order to get the
-// initial display updated as soon as possible.
-//
-//*****************************************************************************
-static unsigned long g_ulIPAddress = 0xffffffff;
-
-//*****************************************************************************
-//
-// The number of packets that have been transmitted.  This is initialized to -1
-// in order to get the initial display updated as soon as possible.
-//
-//*****************************************************************************
-static unsigned long g_ulTXPackets = 0xffffffff;
-
-//*****************************************************************************
-//
-// The number of packets that have been received.  This is initialized to -1 in
-// order to get the initial display updated as soon as possible.
-//
-//*****************************************************************************
-static unsigned long g_ulRXPackets = 0xffffffff;
-
-//*****************************************************************************
-//
 // A buffer to contain the string versions of the information displayed at the
 // bottom of the display.
 //
 //*****************************************************************************
 static char g_pcTimeString[12];
 static char g_pcTaskString[4];
-static char g_pcIPString[24];
-static char g_pcTxString[8];
-static char g_pcRxString[8];
-
 //*****************************************************************************
 //
 // This function is called by the application whenever it creates a task.

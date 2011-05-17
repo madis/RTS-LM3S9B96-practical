@@ -31,9 +31,9 @@
 //
 //*****************************************************************************
 #define PRIORITY_LED_TASK       4
-#define PRIORITY_HTTPD_TASK     3
 #define PRIORITY_DISPLAY_TASK   2
 #define PRIORITY_CONTROL_TASK   1
 #define PRIORITY_SPIDER_TASK    0
+#define PRIORITY_EXAMPLE_TASK	4
 
 #endif // __PRIORITIES_H__
